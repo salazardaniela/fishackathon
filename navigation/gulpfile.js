@@ -34,6 +34,7 @@ gulp.task('webserver', function() {
  
 gulp.task('dev', ['hbs','scripts','sass','webserver'], function () {
 	gulp.watch('templates/**/html/*.hbs', ['hbs']);
+	gulp.watch('templates/**/html/*.json', ['hbs']);
 	gulp.watch('templates/**/scripts/*.js', ['scripts']);
 	gulp.watch('templates/**/scss/*.scss', ['sass']);
 });

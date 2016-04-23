@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+function initMap(){var o=new google.maps.Map(document.getElementById("map-philippines"),{center:{lat:11.9693968,lng:121.8916562},zoom:6});new google.maps.InfoWindow({map:o})}function handleLocationError(o,e,n){e.setPosition(n),e.setContent(o?"Error: The Geolocation service failed.":"Error: Your browser doesn't support geolocation.")}$(document).ready(function(){var o=$(window);$("#map-philippines").css("height",o.height()).css("width",o.width())});
