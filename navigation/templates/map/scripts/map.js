@@ -1,20 +1,54 @@
 $(document).ready(function(){
-	var $window = $(window);
+	var $window = $(window),
+		protectedArea;
 
 	$('#map-philippines').css('height', $window.height())
 							.css('width', $window.width());
+
+	$.getJSON('../../../data/data.json', createArea);
 });
 
+function createArea(data) {
+	protectedArea = data;
+}
+
 function initMap() {
-	var map = new google.maps.Map(document.getElementById('map-philippines'), {
-		center: {
-			lat: 11.9693968,
-			lng: 121.8916562
-		},
-		zoom: 6
+	var positionDefault,
+		map,
+		marker;
+
+	positionDefault = {
+		lat: 9.41981,
+		lng: 125.933439
+	};
+
+	map = new google.maps.Map(document.getElementById('map-philippines'), {
+		center: positionDefault,
+		zoom: 11
+		// disableDefaultUI: true
 	});
 
-	var infoWindow = new google.maps.InfoWindow({map: map});
+	marker = new google.maps.Marker({
+		position: positionDefault,
+		map: map
+	});
+
+	for (var area in protectedArea.protectedArea) {
+		console.log(protectedArea.protectedArea[area]);
+		// Add the circle for this city to the map.
+		var cityCircle = new google.maps.Circle({
+			strokeColor: '#FF0000',
+			strokeOpacity: 0.8,
+			strokeWeight: 2,
+			fillColor: '#FF0000',
+			fillOpacity: 0.35,
+			map: map,
+			center: protectedArea.protectedArea[area].center,
+			radius: Math.sqrt(protectedArea.protectedArea[area].population) * 100
+		});
+	}
+
+	// var infoWindow = new google.maps.InfoWindow({map: map});
 
 	// // Try HTML5 geolocation.
 	// if (navigator.geolocation) {
