@@ -63,4 +63,102 @@
         },
         "population": 49944
     }]
+    "fishingZone"[{  
+        "name": "Luzón",
+        "center":{
+            "lat": 15.5806269,
+            "lng": 119.7296909
+        }
+
+     }]
+
+         "fishingZone"[{  
+        "name": "Bacólod",
+        "center":{
+            "lat": 0.6457775,
+            "lng": 122.8626886
+        }
+        }]
+
+            "fishingZone"[{  
+        "name": "Cebú",
+        "center":{
+            "lat": 10.3788442,
+            "lng": 123.7762541
+        }
+
+     }]
+
+     "fishingZone"[{  
+        "name": "Sultán Kudarat",
+        "center":{
+            "lat": 6.5000501,
+            "lng": 124.0462679
+        }
+
+     }]
+
+     "internetAcces"[{
+        "name": "Palawan Island",
+        "center":{
+
+            "lat": 9.8759021,
+            "lng": 117.3244162
+        }
+
+        }]
+
+         "internetAcces"[{
+        "name": "Corón Island",
+        "center":{
+
+            "lat": 11.8972152,
+            "lng": 120.164188
+        }
+
+        }]
+
+         "internetAcces"[{
+        "name": "Bohol",
+        "center":{
+
+            "lat": 9.8802728,
+            "lng": 123.629942
+        }
+
+        }]
+
+        "internetAcces"[{
+        "name": " Cebú Island",
+        "center":{
+
+            "lat": 10.3488504,
+            "lng": 123.1228386
+        }
+
+        }]
+
+        "internetAcces"[{
+        "name": " Borácay",
+        "center":{
+
+            "lat": 11.969281,
+            "lng": 121.8922095
+        }
+
+        }]
+
+        "internetAcces"[{
+        "name": " Luzón",
+        "center":{
+
+            "lat": 15.5806269,
+            "lng": 119.7296909
+        }
+
+        }]
+
+
+
+
 }
