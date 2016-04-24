@@ -5,8 +5,10 @@ body {
           text-align: center;
           color: rgb(255,255,255);
           }
-          a { 
+          a { text-align: center; display: block;
           
           color: rgb(255,255,255);
           }
-            
+         img { display: block;
+         margin: 0 auto; 
+         }   
