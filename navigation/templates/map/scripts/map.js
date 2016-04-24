@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var $window = $(window),
-		protectedArea;
+		filipinasData;
 
 	$('#map-philippines').css('height', $window.height())
 							.css('width', $window.width());
@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 function createArea(data) {
-	protectedArea = data;
+	filipinasData = data;
 }
 
 function initMap() {
@@ -33,9 +33,7 @@ function initMap() {
 		map: map
 	});
 
-	for (var area in protectedArea.protectedArea) {
-		console.log(protectedArea.protectedArea[area]);
-		// Add the circle for this city to the map.
+	for (var area in filipinasData.protectedArea) {
 		var cityCircle = new google.maps.Circle({
 			strokeColor: '#FF0000',
 			strokeOpacity: 0.8,
@@ -43,8 +41,21 @@ function initMap() {
 			fillColor: '#FF0000',
 			fillOpacity: 0.35,
 			map: map,
-			center: protectedArea.protectedArea[area].center,
-			radius: Math.sqrt(protectedArea.protectedArea[area].population) * 100
+			center: filipinasData.protectedArea[area].center,
+			radius: Math.sqrt(filipinasData.protectedArea[area].population) * 100
+		});
+	}
+
+	for (var pesca in filipinasData.fishingZone) {
+		var fishingCircle = new google.maps.Circle({
+			strokeColor: '#00FF00',
+			strokeOpacity: 0.8,
+			strokeWeight: 2,
+			fillColor: '#00FF00',
+			fillOpacity: 0.35,
+			map: map,
+			center: filipinasData.fishingZone[pesca].center,
+			radius: Math.sqrt(filipinasData.fishingZone[pesca].population) * 100
 		});
 	}
 

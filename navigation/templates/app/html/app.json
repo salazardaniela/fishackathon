@@ -1,0 +1,18 @@
+{
+	"title": "Fishtter",
+	"hello": "Hello Captain!",
+	"login": {
+		"btn": "Login"
+	},
+	"register": {
+		"btn": "Register",
+		"title": "Register",
+		"first": "First Name",
+		"last": "Last Name",
+		"id": "Identification Number",
+		"boat": "Boat ID",
+		"port": "Port of departure",
+		"capacity": "Boat Capacity"
+	},
+	"btnBack": "Go back"
+}

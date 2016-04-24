@@ -5,62 +5,126 @@
             "lat": 9.41981,
             "lng": 125.933439
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Bato Marine",
         "center": {
             "lat": 6.781283,
             "lng": 125.403883
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Brgy. Bonifacio Aquino",
         "center": {
             "lat": 8.917434,
             "lng": 125.184544
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Brgy. Tuban",
         "center": {
             "lat": 6.850569,
             "lng": 125.431848
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Carrascal",
         "center": {
             "lat": 9.404167,
             "lng": 125.980833
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Dadatan",
         "center": {
             "lat": 6.967986,
             "lng": 125.691817
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "Gaas Bay",
         "center": {
             "lat": 10.168664,
             "lng": 125.652444
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "General Island",
         "center": {
             "lat": 9.409054,
             "lng": 125.99762
         },
-        "population": 49944
+        "population": 4994
     },{
         "name": "San Pedro",
         "center": {
             "lat": 9.346667,
             "lng": 125.993056
         },
-        "population": 49944
+        "population": 4994
+    }],
+    "fishingZone": [{
+        "name": "Adlay Marine",
+        "center": {
+            "lat": 9.41981,
+            "lng": 125.933439
+        },
+        "population": 7994
+    },{
+        "name": "Bato Marine",
+        "center": {
+            "lat": 6.781283,
+            "lng": 125.403883
+        },
+        "population": 7994
+    },{
+        "name": "Brgy. Bonifacio Aquino",
+        "center": {
+            "lat": 8.917434,
+            "lng": 125.184544
+        },
+        "population": 7994
+    },{
+        "name": "Brgy. Tuban",
+        "center": {
+            "lat": 6.850569,
+            "lng": 125.431848
+        },
+        "population": 7994
+    },{
+        "name": "Carrascal",
+        "center": {
+            "lat": 9.404167,
+            "lng": 125.980833
+        },
+        "population": 7994
+    },{
+        "name": "Dadatan",
+        "center": {
+            "lat": 6.967986,
+            "lng": 125.691817
+        },
+        "population": 7994
+    },{
+        "name": "Gaas Bay",
+        "center": {
+            "lat": 10.168664,
+            "lng": 125.652444
+        },
+        "population": 7994
+    },{
+        "name": "General Island",
+        "center": {
+            "lat": 9.409054,
+            "lng": 125.99762
+        },
+        "population": 7994
+    },{
+        "name": "San Pedro",
+        "center": {
+            "lat": 9.346667,
+            "lng": 125.993056
+        },
+        "population": 7994
     }]
 }
