@@ -63,166 +63,76 @@
         },
         "population": 4994
     }],
-    "fishingZone": [{
-        "name": "Adlay Marine",
-        "center": {
-            "lat": 9.41981,
-            "lng": 125.933439
-        },
-        "population": 7994
-    },{
-        "name": "Bato Marine",
-        "center": {
-            "lat": 6.781283,
-            "lng": 125.403883
-        },
-        "population": 7994
-    },{
-        "name": "Brgy. Bonifacio Aquino",
-        "center": {
-            "lat": 8.917434,
-            "lng": 125.184544
-        },
-        "population": 7994
-    },{
-        "name": "Brgy. Tuban",
-        "center": {
-            "lat": 6.850569,
-            "lng": 125.431848
-        },
-        "population": 7994
-    },{
-        "name": "Carrascal",
-        "center": {
-            "lat": 9.404167,
-            "lng": 125.980833
-        },
-        "population": 7994
-    },{
-        "name": "Dadatan",
-        "center": {
-            "lat": 6.967986,
-            "lng": 125.691817
-        },
-        "population": 7994
-    },{
-        "name": "Gaas Bay",
-        "center": {
-            "lat": 10.168664,
-            "lng": 125.652444
-        },
-        "population": 7994
-    },{
-        "name": "General Island",
-        "center": {
-            "lat": 9.409054,
-            "lng": 125.99762
-        },
-        "population": 7994
-    },{
-        "name": "San Pedro",
-        "center": {
-            "lat": 9.346667,
-            "lng": 125.993056
-        },
-        "population": 7994
-    }]
-    "fishingZone"[{  
+    "fishingZone": [{  
         "name": "Luzón",
         "center":{
             "lat": 15.5806269,
             "lng": 119.7296909
-        }
-
-     }]
-
-         "fishingZone"[{  
+        },
+        "population": 14994
+     },{  
         "name": "Bacólod",
         "center":{
             "lat": 0.6457775,
             "lng": 122.8626886
-        }
-        }]
-
-            "fishingZone"[{  
+        },
+        "population": 14994
+    },{  
         "name": "Cebú",
         "center":{
             "lat": 10.3788442,
             "lng": 123.7762541
-        }
-
-     }]
-
-     "fishingZone"[{  
+        },
+        "population": 14994
+    },{  
         "name": "Sultán Kudarat",
         "center":{
             "lat": 6.5000501,
             "lng": 124.0462679
-        }
-
-     }]
-
-     "internetAcces"[{
+        },
+        "population": 14994
+    }],
+     "internetAccess": [{
         "name": "Palawan Island",
         "center":{
-
             "lat": 9.8759021,
             "lng": 117.3244162
-        }
-
-        }]
-
-         "internetAcces"[{
+        },
+        "population": 44994
+    },{
         "name": "Corón Island",
         "center":{
-
             "lat": 11.8972152,
             "lng": 120.164188
-        }
-
-        }]
-
-         "internetAcces"[{
+        },
+        "population": 44994
+    },{
         "name": "Bohol",
         "center":{
-
             "lat": 9.8802728,
             "lng": 123.629942
-        }
-
-        }]
-
-        "internetAcces"[{
+        },
+        "population": 44994
+    },{
         "name": " Cebú Island",
         "center":{
-
             "lat": 10.3488504,
             "lng": 123.1228386
-        }
-
-        }]
-
-        "internetAcces"[{
+        },
+        "population": 44994
+    },{
         "name": " Borácay",
         "center":{
-
             "lat": 11.969281,
             "lng": 121.8922095
-        }
-
-        }]
-
-        "internetAcces"[{
+        },
+        "population": 44994
+    },{
         "name": " Luzón",
         "center":{
-
             "lat": 15.5806269,
             "lng": 119.7296909
-        }
-
-        }]
-
-
-
-
+        },
+        "population": 44994
+    }]
 }

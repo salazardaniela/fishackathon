@@ -1,3 +1,15 @@
 {
-	"title": "Fishtter"
+	"title": "Fishtter",
+	"menu": {
+		"links": [{
+			"link": "#",
+			"name": "Pais"
+		},{
+			"link": "#",
+			"name": "Pais"
+		},{
+			"link": "#",
+			"name": "Pais"
+		}]
+	}
 }

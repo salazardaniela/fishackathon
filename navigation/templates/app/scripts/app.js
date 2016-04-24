@@ -4,10 +4,6 @@ $(document).ready(function () {
 		$('.hello').fadeIn('slow');
 	}, 1500);
 
-	$('.login').on('click', function() {
-		$('.wrapper-login').fadeIn();
-	});
-
 	$('.register').on('click', function() {
 		$('.wrapper-register').fadeIn();
 	});

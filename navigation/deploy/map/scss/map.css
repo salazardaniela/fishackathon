@@ -1,6 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
 body {
+  font-family: 'Glegoo', serif;
+  font-weight: 400;
   margin: 0; }
 
 #map-philippines {
   height: 100px;
   width: 100px; }
+
+.barra {
+  background: rgba(255, 255, 255, 0.4);
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100; }
+  .barra .btn-menu {
+    margin-right: 35%; }
+    .barra .btn-menu a {
+      border-top: 5px solid gray;
+      display: block;
+      height: 31px;
+      position: relative;
+      width: 35px; }
+      .barra .btn-menu a:after {
+        content: ' ';
+        background: gray;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        top: 7px;
+        width: 35px; }
+      .barra .btn-menu a:before {
+        content: ' ';
+        background: gray;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        bottom: 7px;
+        width: 35px; }
+  .barra img {
+    max-width: 50px; }
+  .barra li {
+    display: inline-block;
+    margin: 0 5px; }
+    .barra li:last-child {
+      float: right; }
+  .barra ul {
+    margin: 5px 0;
+    padding: 0 0 0 5px; }
+
+.aside-menu {
+  background: rgba(255, 255, 255, 0.7);
+  left: -100%;
+  top: 69px;
+  position: absolute;
+  width: 150px;
+  z-index: 10;
+  -moz-transition: left 2s all;
+  -webkit-transition: left 2s all;
+  transition: left 2s all; }
+  .aside-menu.show {
+    left: 0; }
+  .aside-menu .menu {
+    color: #838484; }
+    .aside-menu .menu a {
+      color: rgba(0, 0, 0, 0.65);
+      font-weight: 700;
+      display: block; }
+    .aside-menu .menu ul {
+      padding-left: 10px; }
+    .aside-menu .menu li {
+      list-style: none; }

@@ -1,8 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
 body {
+	font-family: 'Glegoo', serif;
+	font-weight: 400;
 	margin: 0;
 }
 
 #map-philippines {
 	height: 100px;
 	width: 100px;
+}
+
+.barra {
+	background: rgba(255,255,255,.4); 
+	left: 0;
+	overflow: hidden;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+
+	.btn-menu {
+		margin-right: 35%;
+
+		a {
+			border-top: 5px solid gray;
+			display: block;
+			height: 31px;
+			position: relative;
+			width: 35px;
+
+			&:after {
+				content: ' ';
+				background: gray;
+				height: 5px;
+				left: 0;
+				position: absolute;
+				top: 7px;
+				width: 35px;
+			}
+
+			&:before {
+				content: ' ';
+				background: gray;
+				height: 5px;
+				left: 0;
+				position: absolute;
+				bottom: 7px;
+				width: 35px;
+			}
+		}
+	}
+	
+	img {
+		max-width: 50px; 
+	}
+	
+	li {
+		display: inline-block;
+		margin: 0 5px;
+
+		&:last-child {
+			float: right;
+		}
+	}
+
+	ul {
+		margin: 5px 0;
+		padding: 0 0 0 5px;
+	}
+}
+
+.aside-menu {
+	background: rgba(255,255,255,.7);
+	left: -100%;
+	top: 69px;
+	position: absolute;
+	width: 150px;
+	z-index: 10;
+	-moz-transition: left 2s all;
+	-webkit-transition: left 2s all;
+    transition: left 2s all;
+	
+    &.show {
+    	left: 0;
+    }
+
+	.menu {
+		color: rgb(131,132,132);
+
+		a { 
+			color: rgba(0,0,0,.65);
+			font-weight: 700;
+			display: block;
+		}
+		
+		ul {
+			padding-left: 10px;
+		}
+
+		li { 
+			list-style: none;
+		}
+	}
 }
