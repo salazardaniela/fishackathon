@@ -1,7 +1,8 @@
 body {
   font-family: arial;
-  background: #34495e;
-  margin: 0; }
+  background: #034b68;
+  margin: 0;
+  display: block; }
 
 h1, label {
   color: #fff; }
