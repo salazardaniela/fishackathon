@@ -98,6 +98,15 @@
 
      }]
 
+          "fishingZone"[{  
+        "name": "Manila",
+        "center":{
+            "lat": 14.5980611,
+            "lng": 120.9096107
+        }
+
+     }]
+
      "internetAcces"[{
         "name": "Palawan Island",
         "center":{
