@@ -12,7 +12,7 @@ body {
 }
 
 .barra {
-	background: rgba(255,255,255,.4); 
+	background: rgba(255,255,255,.8); 
 	left: 0;
 	overflow: hidden;
 	top: 0;
@@ -72,17 +72,19 @@ body {
 }
 
 .aside-menu {
-	background: rgba(255,255,255,.7);
+	background: rgba(255,255,255,.8);
+	display: none;
 	left: -100%;
 	top: 69px;
 	position: absolute;
-	width: 150px;
+	min-width: 150px;
 	z-index: 10;
 	-moz-transition: left 2s all;
 	-webkit-transition: left 2s all;
     transition: left 2s all;
 	
     &.show {
+    	display: block;
     	left: 0;
     }
 
@@ -93,6 +95,7 @@ body {
 			color: rgba(0,0,0,.65);
 			font-weight: 700;
 			display: block;
+			padding-right: 15px;
 		}
 		
 		ul {

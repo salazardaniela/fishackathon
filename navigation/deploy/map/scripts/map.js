@@ -8,6 +8,14 @@ $(document).ready(function(){
 	data();
 	$('#map-philippines').css('height', $window.height())
 							.css('width', $window.width());
+
+	$('.btn-menu').on('click', function() {
+		if($('.aside-menu').is(':hidden')){
+			$('.aside-menu').addClass('show');
+		} else{
+			$('.aside-menu').removeClass('show');
+		}
+	});
 });
 
 $(window).resize(function(){
@@ -22,7 +30,7 @@ function data() {
 		dataType: 'json',
 		success: function(data) {
 			filipinasData = data;
-			draw();
+			draw(filipinasData);
 		}
 	});
 }
@@ -49,7 +57,7 @@ function initMap() {
 		map: map
 	});
 
-	draw();
+	data();
 
 	// var infoWindow = new google.maps.InfoWindow({map: map});
 
@@ -73,7 +81,7 @@ function initMap() {
 	// }
 }
 
-function draw() {
+function draw(filipinasData) {
 	for (var area in filipinasData.protectedArea) {
 		var cityCircle = new google.maps.Circle({
 			strokeColor: '#FF0000',

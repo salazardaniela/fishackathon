@@ -9,7 +9,7 @@ body {
   width: 100px; }
 
 .barra {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.8);
   left: 0;
   overflow: hidden;
   top: 0;
@@ -52,23 +52,26 @@ body {
     padding: 0 0 0 5px; }
 
 .aside-menu {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
   left: -100%;
   top: 69px;
   position: absolute;
-  width: 150px;
+  min-width: 150px;
   z-index: 10;
   -moz-transition: left 2s all;
   -webkit-transition: left 2s all;
   transition: left 2s all; }
   .aside-menu.show {
+    display: block;
     left: 0; }
   .aside-menu .menu {
     color: #838484; }
     .aside-menu .menu a {
       color: rgba(0, 0, 0, 0.65);
       font-weight: 700;
-      display: block; }
+      display: block;
+      padding-right: 15px; }
     .aside-menu .menu ul {
       padding-left: 10px; }
     .aside-menu .menu li {

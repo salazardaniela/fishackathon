@@ -98,41 +98,41 @@
             "lat": 9.8759021,
             "lng": 117.3244162
         },
-        "population": 44994
+        "population": 404994
     },{
         "name": "Corón Island",
         "center":{
             "lat": 11.8972152,
             "lng": 120.164188
         },
-        "population": 44994
+        "population": 404994
     },{
         "name": "Bohol",
         "center":{
             "lat": 9.8802728,
             "lng": 123.629942
         },
-        "population": 44994
+        "population": 404994
     },{
         "name": " Cebú Island",
         "center":{
             "lat": 10.3488504,
             "lng": 123.1228386
         },
-        "population": 44994
+        "population": 404994
     },{
         "name": " Borácay",
         "center":{
             "lat": 11.969281,
             "lng": 121.8922095
         },
-        "population": 44994
+        "population": 404994
     },{
         "name": " Luzón",
         "center":{
             "lat": 15.5806269,
             "lng": 119.7296909
         },
-        "population": 44994
+        "population": 404994
     }]
 }
