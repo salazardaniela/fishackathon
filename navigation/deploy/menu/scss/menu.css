@@ -1,0 +1,8 @@
+.menu {
+  background: rgba(131, 132, 132, 0.5);
+  color: #838484;
+  font-weight: museo slab; }
+  .menu a {
+    color: rgba(0, 0, 0, 0.65); }
+  .menu li {
+    list-style: none; }
