@@ -1,7 +1,10 @@
-body {
-  background: #034b68; }
-
-img {
-  display: block;
-  margin: 0 auto;
-  padding: 10% 0; }
+.barra {
+  background: rgba(131, 132, 132, 0.35);
+  overflow: hidden; }
+  .barra img {
+    max-width: 50px; }
+  .barra li {
+    display: inline-block;
+    margin: 0 10px; }
+  .barra ul {
+    text-align: center; }

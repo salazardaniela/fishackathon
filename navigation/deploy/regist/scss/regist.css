@@ -1,0 +1,41 @@
+body {
+  font-family: arial;
+  background: #034b68;
+  margin: 0;
+  display: block; }
+
+h1, label {
+  color: #fff; }
+
+nav {
+  background-color: #2c3e50;
+  display: flex;
+  padding: 5px; }
+
+nav > .logo {
+  width: 10%;
+  min-width: 83px;
+  max-width: 83px;
+  padding-left: 10px; }
+
+nav > .logo > img {
+  width: 100%; }
+
+nav > .title {
+  justify-content: center;
+  flex: 1;
+  display: flex; }
+
+form > .form-element {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 300px; }
+
+form > .form-element > input[type="submit"] {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 20px; }

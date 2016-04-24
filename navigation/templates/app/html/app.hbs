@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" href="../scss/app.css">
+</head>
+<body>
+	
+	<div class="first"><img src="/images/FISHTTER ICONS-17.png" /></div>
+
+	<div class="hello">
+		<h1>{{hello}}</h1>
+		<img src="/images/FISHACKATHON_ICONS-09.png" />
+		
+		<a class="login" href="../../map/html/map.html">{{login.btn}}</a>
+		<a class="register" href="#">{{register.btn}}</a>
+	</div>
+
+	<div class="wrapper-register">
+		<nav>
+			<div>
+				<div class="logo">
+					<img src="../../../images/FISHTTER ICONS-04.png" alt="">
+				</div>
+				<div class="title">
+					<h1>{{register.title}}</h1>	
+				</div>
+			</div>
+		</nav>
+		
+		<form action="#">
+			<div class="form-element">
+				<label>{{register.first}}</label>
+				<input type="text" name="firstname">
+			</div>
+					
+			<div class="form-element">
+				<label>{{register.last}}</label>
+				<input type="text" name="lastname">
+			</div>
+					
+			<div class="form-element">
+				<label>{{register.id}}</label>
+				<input type="text" name="ID">
+			</div>
+						
+			<div class="form-element">
+				<label>{{register.boat}}</label>
+				<input type="text" name="boat">	
+			</div>
+						
+			<div class="form-element">
+				<label>{{register.port}}</label>
+				<input type="text" name="portofdeparture">				
+			</div>
+						
+			<div class="form-element">
+				<label>{{register.capacity}}</label>
+				<input type="text" name="shipcapacity">					
+			</div>
+
+			<button>{{btnBack}}</button>
+			
+			<input type="submit" value="submit">
+		</form>
+	</div>
+	
+	<script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../scripts/app.js"></script>
+</body>
+</html>

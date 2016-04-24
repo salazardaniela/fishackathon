@@ -16,7 +16,7 @@ gulp.task('scripts', function () {
 	gulp.src('templates/**/scripts/*.js')
 	.pipe(jshint())
 	.pipe(jshint.reporter('default'))
-	.pipe(uglify())
+	// .pipe(uglify())
 	.pipe(gulp.dest('deploy/'));
 });
 
