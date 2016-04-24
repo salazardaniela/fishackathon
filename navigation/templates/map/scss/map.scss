@@ -107,3 +107,57 @@ body {
 		}
 	}
 }
+
+a.close {
+	background: rgb(131,132,132);
+	color: #FFF;
+	position: absolute;
+	padding: 5px 10px;
+	right: 0;
+	top: 0;
+	text-decoration: none;
+}
+
+.info {
+	background: rgba(255,255,255,.9);
+	display: none;
+	color: rgb(131,132,132);
+    height: 300px;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+	width: 300px;
+    z-index: 100;
+}
+
+.help {
+
+	.links-extra {
+		max-width: 350px;
+		margin: 5% auto;
+
+		a {
+			color: rgb(131,132,132);
+			display: block;
+			margin: 10px 0;
+		}
+
+		.title {
+			justify-content: center;
+		}
+	}
+}
+
+.notifications {
+	h1 {
+		margin-top: 35px;
+	}
+
+	p {
+		color: #B1272B;
+		font-size: 35px;
+	}
+}

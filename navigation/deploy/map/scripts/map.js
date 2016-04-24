@@ -16,6 +16,19 @@ $(document).ready(function(){
 			$('.aside-menu').removeClass('show');
 		}
 	});
+
+	$('.btn-help').on('click', function() {
+		$('.help').fadeIn();
+	});
+
+	$('.close').on('click', function() {
+		var a = $(this).parents();
+		$(a[0]).fadeOut();
+	});
+
+	$('.btn-notification').on('click', function() {
+		$('.notifications').fadeIn();
+	});
 });
 
 $(window).resize(function(){
