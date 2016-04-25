@@ -3,22 +3,22 @@
 	"menu": {
 		"links": [{
 			"link": "#",
-			"name": "Pais"
+			"name": "Country"
 		},{
-			"name": "Politicas",
+			"name": "Politics",
 			"sublinks": [{
 				"link": "#",
-				"name": "Formulario"
+				"name": "Form"
 			},{
 				"link": "#",
-				"name": "Lista de Chequeo"
+				"name": "Check's list"
 			}]
 		},{
 			"link": "#",
-			"name": "Regulación"
+			"name": "Regulations"
 		},{
 			"link": "#",
-			"name": "Áreas Protegidas"
+			"name": "Protected Areas"
 		}]
 	}
 }
