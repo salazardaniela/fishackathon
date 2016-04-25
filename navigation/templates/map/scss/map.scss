@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+body {
+	font-family: 'Glegoo', serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+#map-philippines {
+	height: 100px;
+	width: 100px;
+}
+
+.barra {
+	background: rgba(255,255,255,.8); 
+	left: 0;
+	overflow: hidden;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+
+	.btn-menu {
+		margin-right: 35%;
+
+		a {
+			border-top: 5px solid gray;
+			display: block;
+			height: 31px;
+			position: relative;
+			width: 35px;
+
+			&:after {
+				content: ' ';
+				background: gray;
+				height: 5px;
+				left: 0;
+				position: absolute;
+				top: 7px;
+				width: 35px;
+			}
+
+			&:before {
+				content: ' ';
+				background: gray;
+				height: 5px;
+				left: 0;
+				position: absolute;
+				bottom: 7px;
+				width: 35px;
+			}
+		}
+	}
+	
+	img {
+		max-width: 50px; 
+	}
+	
+	li {
+		display: inline-block;
+		margin: 0 5px;
+
+		&:last-child {
+			float: right;
+		}
+	}
+
+	ul {
+		margin: 5px 0;
+		padding: 0 0 0 5px;
+	}
+}
+
+.aside-menu {
+	background: rgba(255,255,255,.8);
+	display: none;
+	left: -100%;
+	top: 69px;
+	position: absolute;
+	min-width: 150px;
+	z-index: 10;
+	-moz-transition: left 2s all;
+	-webkit-transition: left 2s all;
+    transition: left 2s all;
+	
+    &.show {
+    	display: block;
+    	left: 0;
+    }
+
+	.menu {
+		color: rgb(131,132,132);
+
+		a { 
+			color: rgba(0,0,0,.65);
+			font-weight: 700;
+			display: block;
+			padding-right: 15px;
+		}
+		
+		ul {
+			padding-left: 10px;
+		}
+
+		li { 
+			list-style: none;
+		}
+	}
+}
+
+a.close {
+	background: rgb(131,132,132);
+	color: #FFF;
+	position: absolute;
+	padding: 5px 10px;
+	right: 0;
+	top: 0;
+	text-decoration: none;
+}
+
+.info {
+	background: rgba(255,255,255,.9);
+	display: none;
+	color: rgb(131,132,132);
+    height: 300px;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+	width: 300px;
+    z-index: 100;
+}
+
+.help {
+
+	.links-extra {
+		max-width: 350px;
+		margin: 5% auto;
+
+		a {
+			color: rgb(131,132,132);
+			display: block;
+			margin: 10px 0;
+		}
+
+		.title {
+			justify-content: center;
+		}
+	}
+}
+
+.notifications {
+	h1 {
+		margin-top: 35px;
+	}
+
+	p {
+		color: #B1272B;
+		font-size: 35px;
+	}
+}
