@@ -106,7 +106,7 @@ function draw(filipinasData) {
 	for (var area in filipinasData.protectedArea) {
 		var cityCircle = new google.maps.Circle({
 			strokeColor: '#FF0000',
-			strokeOpacity: 0.8,
+			strokeOpacity: 0,
 			strokeWeight: 2,
 			fillColor: '#FF0000',
 			fillOpacity: 0.35,
@@ -119,7 +119,7 @@ function draw(filipinasData) {
 	for (var internet in filipinasData.internetAccess) {
 		var internetCircle = new google.maps.Circle({
 			strokeColor: '#0000FF',
-			strokeOpacity: 0.8,
+			strokeOpacity: 0,
 			strokeWeight: 2,
 			fillColor: '#0000FF',
 			fillOpacity: 0.35,
@@ -132,13 +132,13 @@ function draw(filipinasData) {
 	for (var pesca in filipinasData.fishingZone) {
 		var fishingCircle = new google.maps.Circle({
 			strokeColor: '#00FF00',
-			strokeOpacity: 0.8,
+			strokeOpacity: 0,
 			strokeWeight: 2,
 			fillColor: '#00FF00',
 			fillOpacity: 0.35,
 			map: map,
 			center: filipinasData.fishingZone[pesca].center,
-			radius: Math.sqrt(filipinasData.fishingZone[pesca].population) * 100
+			radius: Math.sqrt(filipinasData.fishingZone[pesca].population) * 1000
 		});
 	}
 }
