@@ -54,14 +54,15 @@ function createArea(data) {
 
 function initMap() {
 	positionDefault = {
-		lat: 9.41981,
-		lng: 125.933439
+		"lat": 10.6457775,
+        "lng": 122.8626886
 	};
 
 	map = new google.maps.Map(document.getElementById('map-philippines'), {
 		center: positionDefault,
-		zoom: 11,
-		disableDefaultUI: true
+		zoom: 9
+		// ,
+		// disableDefaultUI: true
 	});
 
 	marker = new google.maps.Marker({
@@ -95,6 +96,13 @@ function initMap() {
 }
 
 function draw(filipinasData) {
+	for (var port in filipinasData.ports) {
+		var marker = new google.maps.Marker({
+			position: filipinasData.ports[port].center,
+			map: map
+		});
+	}
+
 	for (var area in filipinasData.protectedArea) {
 		var cityCircle = new google.maps.Circle({
 			strokeColor: '#FF0000',
