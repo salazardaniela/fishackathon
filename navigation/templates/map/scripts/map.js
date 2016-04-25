@@ -66,7 +66,7 @@ function initMap() {
 
 	marker = new google.maps.Marker({
 		position: positionDefault,
-		icon: '../../../Images/FISHTTER-ICONS-05.png',
+		icon: '../../../images/FISHTTER-ICONS-05.png',
 		map: map
 	});
 
@@ -98,7 +98,7 @@ function draw(filipinasData) {
 	for (var port in filipinasData.ports) {
 		var marker = new google.maps.Marker({
 			position: filipinasData.ports[port].center,
-			icon: '../../../Images/port.png',
+			icon: '../../../images/port.png',
 			map: map
 		});
 	}
