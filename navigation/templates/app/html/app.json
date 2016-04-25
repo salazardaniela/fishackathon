@@ -12,7 +12,23 @@
 		"id": "Identification Number",
 		"boat": "Boat ID",
 		"port": "Port of departure",
-		"capacity": "Boat Capacity"
+		"capacity": "Boat Capacity",
+		"boatype": {
+			"name": "Boat type",
+			"types": [{
+				"name": "Seiner"
+			},{
+				"name": "Longliner"
+			},{
+				"name": "Gillnetter"
+			},{
+				"name": "Trawler"
+			},{
+				"name": "Drifter"
+			},{
+				"name": "Factory Ship"
+			}]
+		}
 	},
 	"btnBack": "Go back"
 }

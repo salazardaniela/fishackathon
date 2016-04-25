@@ -132,6 +132,15 @@ h1, h2, h3, h4, h5 {
 	    }
 	}
 
+	form select {
+		-webkit-appearance: none;
+		border-radius: 0;
+		border: 1px solid white;
+		background: rgba(255, 255, 255, 0.8);
+		padding: 5px;
+		font-size: 13px;
+	}
+
 	form button {
 		background: rgba(255,255,255,.8);
 		cursor: pointer;

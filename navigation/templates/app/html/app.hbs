@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>{{title}}</title>
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 	<link rel="stylesheet" href="../scss/app.css">
@@ -59,6 +60,15 @@
 			<div class="form-element">
 				<label>{{register.capacity}}</label>
 				<input type="text" name="shipcapacity">					
+			</div>
+
+			<div class="form-element">
+				<label>{{register.boatype.name}}</label>
+				<select name="BoatType">
+					{{#each register.boatype.types}}
+						<option>{{name}}</option>
+					{{/each}}
+				</select>				
 			</div>
 
 			<button>{{btnBack}}</button>
