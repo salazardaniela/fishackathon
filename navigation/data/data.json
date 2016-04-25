@@ -134,5 +134,108 @@
             "lng": 119.7296909
         },
         "population": 454994
+    }],
+    "ports": [{
+        "name": "princess port",
+        "center":{
+            "lat": 9.9464138,
+            "lng": 118.2342393
+        }
+    },{
+        "name": "Batangas port",
+        "center":{
+            "lat": 13.7850347,
+            "lng": 120.969948
+        }
+    },{
+        "name": "Dávao port",
+        "center":{
+            "lat": 7.253501,
+            "lng": 125.1708762
+        }
+    },{
+        "name": "Manila port",
+        "center":{
+            "lat": 14.598152,
+            "lng": 120.9446318
+        }
+    },{
+        "name": "Lingayén port",
+        "center":{
+            "lat": 13.1208734,
+            "lng": 123.6330877
+        }
+    },{
+        "name": "Legazpi port",
+        "center":{
+            "lat": 15.9906634,
+            "lng": 120.1440643
+        }
+    },{
+        "name": "Mandaue port",
+        "center":{
+            "lat": 10.3461154,
+            "lng": 123.926617
+        }
+    },{
+        "name": "Roxas port",
+        "center":{
+            "lat": 11.547533,
+            "lng": 122.7036633
+        }
+    },{
+        "name": "Sual port",
+        "center":{
+            "lat": 16.0973032,
+            "lng": 119.9792407
+        }
+    },{
+        "name": "Súbic port",
+        "center":{
+            "lat": 14.8721551,
+            "lng": 120.1307026
+        }
+    },{
+        "name": "Tubigon port",
+        "center":{
+            "lat": 9.9227841,
+            "lng": 123.8983268
+        }
+    },{
+        "name": "Zamboanga port",
+        "center":{
+            "lat": 7.1642819,
+            "lng": 121.8651661
+        }
+    },{
+        "name": "Cagayán de Oro port",
+        "center":{
+            "lat": 8.3822797,
+            "lng": 124.3525296
+        }
+    },{
+        "name": "Bacólod port",
+        "center":{
+            "lat": 10.6457775,
+            "lng": 122.8626886
+        }
+    },{
+        "name": "Castillejos port",
+        "center":{
+            "lat": 14.927723,
+            "lng": 120.1489494  
+        }
+    },{
+        "name": "Cebú port",
+        "center":{
+            "lat": 10.3788442,
+            "lng": 123.7762541  
+        }
+    },{
+        "name": "Gral. Santos port",
+        "center":{
+            "lat": 6.2387556,
+            "lng": 125.013996  
+        }
     }]
 }
